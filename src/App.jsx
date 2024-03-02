@@ -1,10 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import NewDashboards from "./Components/Auth/NewDash";
-// import from "./Components/Auth;
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
 import Welcome from "./Components/Auth/Welcome";
-// import PrivateRoute from "./Components/Auth/PrivateRoute";
 import Layout from "./Components/Layout";
 import ViewAllTasksPage from "./Pages/ViewAllTasksPage";
 import EditTasksPage from "./Pages/EditTasksPage";
