@@ -26,7 +26,6 @@ function App() {
           <Route path="editTasks" element={<EditTasksPage />} />
         </Route>
       </Routes>
-      <h1>hii</h1>
     </>
   )
 }

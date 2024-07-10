@@ -2,9 +2,7 @@ import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HiOutlineSearch } from 'react-icons/hi';
-// import { logout } from '../../redux/Slices/authSlice';
-// import { removeUser } from '../../redux/Slices/profileSlice';
-// import { useDispatch } from 'react-redux';
+
 import { FaUserCircle } from "react-icons/fa";
 
 
@@ -14,7 +12,7 @@ export default function Header() {
   // const dispatch = useDispatch();
   const location = useLocation();
   const { pathname } = location;
-  
+
   const toggleProfileMenu = () => {
     setIsProfileMenuOpen((prev) => !prev);
   };
